@@ -1,0 +1,19 @@
+/*
+
+Install packages needed for application:
+    node install
+
+Install new package needed for the app to run and add to package.json:
+    node install <package-name> --save
+
+Install new package not necessary for app to run but used for development and
+add to package.json:
+    node install <package-name> --save-dev
+
+Install new package necessary for ALL apps (globally) and add to package.json:
+    npm install -g <package-name>
+
+Investigate current node modules, determine if new version if available, and
+update if newer version is found:
+    npm update
+*/
